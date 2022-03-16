@@ -125,7 +125,7 @@ header i{
 }
 .separator::before{
   content: "or";
-  color: #b3b3b3;
+  color: #776d6d;
   font-size: 19px;
   padding: 0 15px;
   background: #fff;
@@ -234,10 +234,42 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,5,181,1) 15%, rgb
 
 .back{
   padding: 10px;
-  margin-top: -750px;
-  /* margin-left: 45px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 32%;
 }
 a{
   text-decoration: none;
   color: white;
+}
+.name{
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  /* float: right; */
+  border: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ar{
+  background: #00FF00;
+  background: -webkit-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  background: -moz-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background-color: #00bf72;
+  color: rgb(0, 0, 0);
+}
+.name:hover{
+  content: arun;
+  background-color: #857d7d;
+}
+.ar1{
+background-color: #3A1C71;
+color: white;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
 }
